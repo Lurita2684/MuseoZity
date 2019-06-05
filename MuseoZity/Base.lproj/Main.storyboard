@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XF6-A3-co4">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="U3X-Np-Vpi">
+            <objects>
+                <navigationController id="XF6-A3-co4" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hSu-IU-Lu3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.03624573524" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WZA-16-7oN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5c3-sS-xZS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-814" y="-20"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MuseoZity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGF-0g-DFI">
+                                <rect key="frame" x="27" y="424" width="360" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="BARCELONA">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cxt-Dm-TF9" kind="show" identifier="SegueToBarcelona" id="iQx-k2-v4S"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Gn-fG-5qE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Uxm-X3-bqu"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0G1-e5-mzE">
+                                <rect key="frame" x="67" y="279" width="281" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="MADRID">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnMadridPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i0h-a6-BBV"/>
+                                    <segue destination="Cxt-Dm-TF9" kind="show" identifier="SegueToMadrid" id="eAj-YO-tOO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0G1-e5-mzE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="191" id="0bM-gT-BOI"/>
+                            <constraint firstItem="0G1-e5-mzE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Hzn-0K-RWt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0G1-e5-mzE" secondAttribute="bottom" constant="523" id="M2i-ap-EBR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aGF-0g-DFI" secondAttribute="bottom" constant="354" id="O7l-p1-Vd0"/>
+                            <constraint firstItem="aGF-0g-DFI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="wyg-Mx-ibU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0G1-e5-mzE" secondAttribute="trailing" constant="66" id="xEI-Oc-4YO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aGF-0g-DFI" secondAttribute="trailing" constant="27" id="zC8-Ol-R7l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="k1S-WO-2TD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="-30.133928571428569"/>
+        </scene>
+        <!--EDIFICIOS CULTURALES-->
+        <scene sceneID="EWF-KF-YJM">
+            <objects>
+                <viewController id="Cxt-Dm-TF9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hFj-F3-pOf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqe-N1-tll">
+                                <rect key="frame" x="55" y="593" width="304" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="LIBRERIAS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gcY-Ci-RB4" kind="show" id="QkP-vO-CWL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5W6-E7-h2Y">
+                                <rect key="frame" x="22" y="389" width="370" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="BIBLIOTECAS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Tvc-P1-qnn" kind="show" id="97I-16-iFE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcW-wZ-gQQ">
+                                <rect key="frame" x="66" y="190" width="282" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="MUSEOS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8V3-zG-Z1Q">
+                                <rect key="frame" x="66" y="190" width="282" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <state key="normal" title="MUSEOS">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tWX-7p-4IH" kind="show" id="W7a-rq-Em5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Qqe-N1-tll" firstAttribute="top" secondItem="5W6-E7-h2Y" secondAttribute="bottom" constant="118" id="3IC-dI-ARS"/>
+                            <constraint firstItem="5W6-E7-h2Y" firstAttribute="top" secondItem="tcW-wZ-gQQ" secondAttribute="bottom" constant="113" id="4TX-1N-zsk"/>
+                            <constraint firstItem="Qqe-N1-tll" firstAttribute="leading" secondItem="hHv-mt-XII" secondAttribute="leading" constant="55" id="DjJ-AM-P35"/>
+                            <constraint firstItem="5W6-E7-h2Y" firstAttribute="top" secondItem="tcW-wZ-gQQ" secondAttribute="bottom" constant="113" id="FgQ-eS-Tkx"/>
+                            <constraint firstItem="tcW-wZ-gQQ" firstAttribute="leading" secondItem="hHv-mt-XII" secondAttribute="leading" constant="66" id="SsV-tq-67q"/>
+                            <constraint firstItem="hHv-mt-XII" firstAttribute="trailing" secondItem="5W6-E7-h2Y" secondAttribute="trailing" constant="22" id="W3R-Mb-ADh"/>
+                            <constraint firstItem="hHv-mt-XII" firstAttribute="trailing" secondItem="Qqe-N1-tll" secondAttribute="trailing" constant="55" id="hee-W0-aM9"/>
+                            <constraint firstItem="hHv-mt-XII" firstAttribute="trailing" secondItem="tcW-wZ-gQQ" secondAttribute="trailing" constant="66" id="iM9-CK-0Nt"/>
+                            <constraint firstItem="tcW-wZ-gQQ" firstAttribute="top" secondItem="hHv-mt-XII" secondAttribute="top" constant="102" id="vND-MW-by3"/>
+                            <constraint firstItem="5W6-E7-h2Y" firstAttribute="leading" secondItem="hHv-mt-XII" secondAttribute="leading" constant="22" id="vmu-gA-aRY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hHv-mt-XII"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="EDIFICIOS CULTURALES" id="pM5-HR-ypi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U5k-cF-7dT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1322" y="-30"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rlz-ss-2lr">
+            <objects>
+                <viewController id="Tvc-P1-qnn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uKh-kY-g2U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OcH-dU-Gcf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IPm-Ta-h5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2549" y="-98"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8v5-j2-3yd">
+            <objects>
+                <viewController id="gcY-Ci-RB4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uqK-KH-poh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kQt-go-lm0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I8M-DF-pde" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2545" y="648"/>
+        </scene>
+        <!--Museos View Controller-->
+        <scene sceneID="JqK-ie-rbl">
+            <objects>
+                <viewController id="tWX-7p-4IH" customClass="MuseosViewController" customModule="MuseoZity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tPe-ix-HDZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VAl-hN-2PO">
+                                <rect key="frame" x="20" y="100" width="374" height="762"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MuseosTableViewCell" rowHeight="420" id="zck-tA-er1" customClass="MuseosMadridTableViewCell" customModule="MuseoZity" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="420"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zck-tA-er1" id="8qE-OR-LeN">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="419.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfJ-2B-a2M">
+                                                    <rect key="frame" x="70" y="11" width="234" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="5Ok-zG-2tY"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rTS-dQ-D93">
+                                                    <rect key="frame" x="40" y="60.5" width="294" height="128"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="294" id="e9w-jc-N1S"/>
+                                                        <constraint firstAttribute="height" constant="128" id="kKn-gL-QRz"/>
+                                                    </constraints>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="foR-LC-v5m">
+                                                    <rect key="frame" x="40" y="233" width="307" height="128"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="723-T8-hT3" userLabel="Image View Museos">
+                                                            <rect key="frame" x="0.0" y="0.0" width="145" height="128"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="128" id="Z8k-bO-rw6"/>
+                                                                <constraint firstAttribute="width" constant="145" id="h3i-vS-r7J"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hVM-aP-qyl">
+                                                            <rect key="frame" x="162" y="0.0" width="145" height="128"/>
+                                                        </mapView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="723-T8-hT3" firstAttribute="top" secondItem="foR-LC-v5m" secondAttribute="top" id="OXH-6d-8fP"/>
+                                                        <constraint firstItem="hVM-aP-qyl" firstAttribute="top" secondItem="foR-LC-v5m" secondAttribute="top" id="f3P-Xq-Tiy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="hVM-aP-qyl" secondAttribute="bottom" id="gj2-JY-V8t"/>
+                                                        <constraint firstAttribute="bottom" secondItem="723-T8-hT3" secondAttribute="bottom" id="oKh-XB-TbJ"/>
+                                                        <constraint firstItem="hVM-aP-qyl" firstAttribute="leading" secondItem="723-T8-hT3" secondAttribute="trailing" constant="17" id="qhz-Bd-arZ"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDd-t5-Zo3" userLabel="horario">
+                                                    <rect key="frame" x="55" y="388" width="264" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rTS-dQ-D93" secondAttribute="trailing" constant="20" id="6VM-Y3-Pvr"/>
+                                                <constraint firstItem="rTS-dQ-D93" firstAttribute="top" secondItem="GfJ-2B-a2M" secondAttribute="bottom" constant="29.5" id="CZZ-Gu-ERC"/>
+                                                <constraint firstItem="rTS-dQ-D93" firstAttribute="leading" secondItem="8qE-OR-LeN" secondAttribute="leadingMargin" constant="20" id="DwC-hp-lxN"/>
+                                                <constraint firstItem="wDd-t5-Zo3" firstAttribute="top" secondItem="hVM-aP-qyl" secondAttribute="bottom" constant="27" id="H1T-MW-yIz"/>
+                                                <constraint firstItem="foR-LC-v5m" firstAttribute="leading" secondItem="8qE-OR-LeN" secondAttribute="leadingMargin" constant="20" id="NMN-79-3Qs"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="wDd-t5-Zo3" secondAttribute="trailing" constant="35" id="Pgb-mD-hO4"/>
+                                                <constraint firstItem="wDd-t5-Zo3" firstAttribute="leading" secondItem="8qE-OR-LeN" secondAttribute="leadingMargin" constant="35" id="TEo-EM-q9a"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="foR-LC-v5m" secondAttribute="bottom" constant="48" id="Uid-e5-UBK"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="GfJ-2B-a2M" secondAttribute="trailing" constant="50" id="cBt-ID-LZp"/>
+                                                <constraint firstItem="GfJ-2B-a2M" firstAttribute="leading" secondItem="8qE-OR-LeN" secondAttribute="leadingMargin" constant="50" id="gQX-5j-oU0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rTS-dQ-D93" secondAttribute="trailing" constant="20" id="jcY-nR-1Mh"/>
+                                                <constraint firstItem="foR-LC-v5m" firstAttribute="top" secondItem="rTS-dQ-D93" secondAttribute="bottom" constant="44.5" id="kFL-Md-9jt"/>
+                                                <constraint firstItem="rTS-dQ-D93" firstAttribute="leading" secondItem="8qE-OR-LeN" secondAttribute="leadingMargin" constant="20" id="o0w-iA-qI5"/>
+                                                <constraint firstItem="GfJ-2B-a2M" firstAttribute="top" secondItem="8qE-OR-LeN" secondAttribute="topMargin" id="t2h-Ah-7Gs"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="foR-LC-v5m" secondAttribute="trailing" constant="7" id="waF-cf-dM6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionMuseo" destination="rTS-dQ-D93" id="0bD-zW-g9t"/>
+                                            <outlet property="imageViewMuseo" destination="723-T8-hT3" id="2B2-Av-5l2"/>
+                                            <outlet property="labelTitleMuseo" destination="GfJ-2B-a2M" id="qac-NS-k5v"/>
+                                            <outlet property="mapMuseo" destination="hVM-aP-qyl" id="veC-az-9eU"/>
+                                            <outlet property="stackViewMuseo" destination="foR-LC-v5m" id="zdL-0Z-0LE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VAl-hN-2PO" firstAttribute="bottom" secondItem="eEG-7r-kcR" secondAttribute="bottom" id="2jt-sH-18f"/>
+                            <constraint firstItem="VAl-hN-2PO" firstAttribute="top" secondItem="eEG-7r-kcR" secondAttribute="top" constant="12" id="8yM-MZ-UyW"/>
+                            <constraint firstItem="VAl-hN-2PO" firstAttribute="leading" secondItem="eEG-7r-kcR" secondAttribute="leading" constant="20" id="97Y-GC-t61"/>
+                            <constraint firstItem="eEG-7r-kcR" firstAttribute="trailing" secondItem="VAl-hN-2PO" secondAttribute="trailing" constant="20" id="Mdk-z1-dmq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eEG-7r-kcR"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableMuseos" destination="VAl-hN-2PO" id="qIK-z1-K6C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8c-Y1-b7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2515.9420289855075" y="-808.25892857142856"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="iQx-k2-v4S"/>
+    </inferredMetricsTieBreakers>
+</document>

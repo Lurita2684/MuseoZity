@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D996E4F222A812B50027C6B1 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996E4F122A812B50027C6B1 /* PointOfInterest.swift */; };
+		D9C26F9722A1870A00D57343 /* MuseosMadridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */; };
+		D9C26F9922A19DC000D57343 /* Museo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26F9822A19DC000D57343 /* Museo.swift */; };
+		D9F0EB3422A5A4EA006956BC /* MuseosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F0EB3322A5A4EA006956BC /* MuseosViewController.swift */; };
+		F955D46722A062D0001996BA /* BottomSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955D46622A062D0001996BA /* BottomSelectorViewController.swift */; };
+		F955D46922A065E2001996BA /* ButtomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955D46822A065E2001996BA /* ButtomType.swift */; };
+		F996116222A04F9300585BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996116122A04F9300585BC9 /* AppDelegate.swift */; };
+		F996116422A04F9300585BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996116322A04F9300585BC9 /* ViewController.swift */; };
+		F996116722A04F9300585BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F996116522A04F9300585BC9 /* Main.storyboard */; };
+		F996116A22A04F9300585BC9 /* MuseoZity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F996116822A04F9300585BC9 /* MuseoZity.xcdatamodeld */; };
+		F996116C22A04F9500585BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F996116B22A04F9500585BC9 /* Assets.xcassets */; };
+		F996116F22A04F9500585BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F996116D22A04F9500585BC9 /* LaunchScreen.storyboard */; };
+		F996117A22A04F9500585BC9 /* MuseoZityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996117922A04F9500585BC9 /* MuseoZityTests.swift */; };
+		F996118522A04F9500585BC9 /* MuseoZityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996118422A04F9500585BC9 /* MuseoZityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F996117622A04F9500585BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F996115622A04F9300585BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F996115D22A04F9300585BC9;
+			remoteInfo = MuseoZity;
+		};
+		F996118122A04F9500585BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F996115622A04F9300585BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F996115D22A04F9300585BC9;
+			remoteInfo = MuseoZity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D996E4F122A812B50027C6B1 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseosMadridTableViewCell.swift; sourceTree = "<group>"; };
+		D9C26F9822A19DC000D57343 /* Museo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museo.swift; sourceTree = "<group>"; };
+		D9F0EB3322A5A4EA006956BC /* MuseosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseosViewController.swift; sourceTree = "<group>"; };
+		F955D46622A062D0001996BA /* BottomSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSelectorViewController.swift; sourceTree = "<group>"; };
+		F955D46822A065E2001996BA /* ButtomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomType.swift; sourceTree = "<group>"; };
+		F996115E22A04F9300585BC9 /* MuseoZity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseoZity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F996116122A04F9300585BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F996116322A04F9300585BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F996116622A04F9300585BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F996116922A04F9300585BC9 /* MuseoZity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MuseoZity.xcdatamodel; sourceTree = "<group>"; };
+		F996116B22A04F9500585BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F996116E22A04F9500585BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F996117022A04F9500585BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F996117522A04F9500585BC9 /* MuseoZityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoZityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F996117922A04F9500585BC9 /* MuseoZityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoZityTests.swift; sourceTree = "<group>"; };
+		F996117B22A04F9500585BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F996118022A04F9500585BC9 /* MuseoZityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseoZityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F996118422A04F9500585BC9 /* MuseoZityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseoZityUITests.swift; sourceTree = "<group>"; };
+		F996118622A04F9500585BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F996115B22A04F9300585BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117222A04F9500585BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117D22A04F9500585BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F996115522A04F9300585BC9 = {
+			isa = PBXGroup;
+			children = (
+				F996116022A04F9300585BC9 /* MuseoZity */,
+				F996117822A04F9500585BC9 /* MuseoZityTests */,
+				F996118322A04F9500585BC9 /* MuseoZityUITests */,
+				F996115F22A04F9300585BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F996115F22A04F9300585BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F996115E22A04F9300585BC9 /* MuseoZity.app */,
+				F996117522A04F9500585BC9 /* MuseoZityTests.xctest */,
+				F996118022A04F9500585BC9 /* MuseoZityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F996116022A04F9300585BC9 /* MuseoZity */ = {
+			isa = PBXGroup;
+			children = (
+				F996116122A04F9300585BC9 /* AppDelegate.swift */,
+				F996116322A04F9300585BC9 /* ViewController.swift */,
+				D9F0EB3322A5A4EA006956BC /* MuseosViewController.swift */,
+				D9C26F9822A19DC000D57343 /* Museo.swift */,
+				F996116522A04F9300585BC9 /* Main.storyboard */,
+				D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */,
+				D996E4F122A812B50027C6B1 /* PointOfInterest.swift */,
+				F955D46622A062D0001996BA /* BottomSelectorViewController.swift */,
+				F955D46822A065E2001996BA /* ButtomType.swift */,
+				F996116B22A04F9500585BC9 /* Assets.xcassets */,
+				F996116D22A04F9500585BC9 /* LaunchScreen.storyboard */,
+				F996117022A04F9500585BC9 /* Info.plist */,
+				F996116822A04F9300585BC9 /* MuseoZity.xcdatamodeld */,
+			);
+			path = MuseoZity;
+			sourceTree = "<group>";
+		};
+		F996117822A04F9500585BC9 /* MuseoZityTests */ = {
+			isa = PBXGroup;
+			children = (
+				F996117922A04F9500585BC9 /* MuseoZityTests.swift */,
+				F996117B22A04F9500585BC9 /* Info.plist */,
+			);
+			path = MuseoZityTests;
+			sourceTree = "<group>";
+		};
+		F996118322A04F9500585BC9 /* MuseoZityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F996118422A04F9500585BC9 /* MuseoZityUITests.swift */,
+				F996118622A04F9500585BC9 /* Info.plist */,
+			);
+			path = MuseoZityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F996115D22A04F9300585BC9 /* MuseoZity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F996118922A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZity" */;
+			buildPhases = (
+				F996115A22A04F9300585BC9 /* Sources */,
+				F996115B22A04F9300585BC9 /* Frameworks */,
+				F996115C22A04F9300585BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseoZity;
+			productName = MuseoZity;
+			productReference = F996115E22A04F9300585BC9 /* MuseoZity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F996117422A04F9500585BC9 /* MuseoZityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F996118C22A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZityTests" */;
+			buildPhases = (
+				F996117122A04F9500585BC9 /* Sources */,
+				F996117222A04F9500585BC9 /* Frameworks */,
+				F996117322A04F9500585BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F996117722A04F9500585BC9 /* PBXTargetDependency */,
+			);
+			name = MuseoZityTests;
+			productName = MuseoZityTests;
+			productReference = F996117522A04F9500585BC9 /* MuseoZityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F996117F22A04F9500585BC9 /* MuseoZityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F996118F22A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZityUITests" */;
+			buildPhases = (
+				F996117C22A04F9500585BC9 /* Sources */,
+				F996117D22A04F9500585BC9 /* Frameworks */,
+				F996117E22A04F9500585BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F996118222A04F9500585BC9 /* PBXTargetDependency */,
+			);
+			name = MuseoZityUITests;
+			productName = MuseoZityUITests;
+			productReference = F996118022A04F9500585BC9 /* MuseoZityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F996115622A04F9300585BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Lurita;
+				TargetAttributes = {
+					F996115D22A04F9300585BC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F996117422A04F9500585BC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F996115D22A04F9300585BC9;
+					};
+					F996117F22A04F9500585BC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F996115D22A04F9300585BC9;
+					};
+				};
+			};
+			buildConfigurationList = F996115922A04F9300585BC9 /* Build configuration list for PBXProject "MuseoZity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F996115522A04F9300585BC9;
+			productRefGroup = F996115F22A04F9300585BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F996115D22A04F9300585BC9 /* MuseoZity */,
+				F996117422A04F9500585BC9 /* MuseoZityTests */,
+				F996117F22A04F9500585BC9 /* MuseoZityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F996115C22A04F9300585BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F996116F22A04F9500585BC9 /* LaunchScreen.storyboard in Resources */,
+				F996116C22A04F9500585BC9 /* Assets.xcassets in Resources */,
+				F996116722A04F9300585BC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117322A04F9500585BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117E22A04F9500585BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F996115A22A04F9300585BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F0EB3422A5A4EA006956BC /* MuseosViewController.swift in Sources */,
+				F996116422A04F9300585BC9 /* ViewController.swift in Sources */,
+				F996116A22A04F9300585BC9 /* MuseoZity.xcdatamodeld in Sources */,
+				D9C26F9722A1870A00D57343 /* MuseosMadridTableViewCell.swift in Sources */,
+				D9C26F9922A19DC000D57343 /* Museo.swift in Sources */,
+				F955D46722A062D0001996BA /* BottomSelectorViewController.swift in Sources */,
+				F955D46922A065E2001996BA /* ButtomType.swift in Sources */,
+				D996E4F222A812B50027C6B1 /* PointOfInterest.swift in Sources */,
+				F996116222A04F9300585BC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117122A04F9500585BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F996117A22A04F9500585BC9 /* MuseoZityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F996117C22A04F9500585BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F996118522A04F9500585BC9 /* MuseoZityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F996117722A04F9500585BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F996115D22A04F9300585BC9 /* MuseoZity */;
+			targetProxy = F996117622A04F9500585BC9 /* PBXContainerItemProxy */;
+		};
+		F996118222A04F9500585BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F996115D22A04F9300585BC9 /* MuseoZity */;
+			targetProxy = F996118122A04F9500585BC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F996116522A04F9300585BC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F996116622A04F9300585BC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F996116D22A04F9500585BC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F996116E22A04F9500585BC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F996118722A04F9500585BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F996118822A04F9500585BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F996118A22A04F9500585BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F996118B22A04F9500585BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F996118D22A04F9500585BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseoZity.app/MuseoZity";
+			};
+			name = Debug;
+		};
+		F996118E22A04F9500585BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseoZity.app/MuseoZity";
+			};
+			name = Release;
+		};
+		F996119022A04F9500585BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseoZity;
+			};
+			name = Debug;
+		};
+		F996119122A04F9500585BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6989UZLVB;
+				INFOPLIST_FILE = MuseoZityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lurita.MuseoZityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseoZity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F996115922A04F9300585BC9 /* Build configuration list for PBXProject "MuseoZity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F996118722A04F9500585BC9 /* Debug */,
+				F996118822A04F9500585BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F996118922A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F996118A22A04F9500585BC9 /* Debug */,
+				F996118B22A04F9500585BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F996118C22A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F996118D22A04F9500585BC9 /* Debug */,
+				F996118E22A04F9500585BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F996118F22A04F9500585BC9 /* Build configuration list for PBXNativeTarget "MuseoZityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F996119022A04F9500585BC9 /* Debug */,
+				F996119122A04F9500585BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F996116822A04F9300585BC9 /* MuseoZity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F996116922A04F9300585BC9 /* MuseoZity.xcdatamodel */,
+			);
+			currentVersion = F996116922A04F9300585BC9 /* MuseoZity.xcdatamodel */;
+			path = MuseoZity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F996115622A04F9300585BC9 /* Project object */;
+}
