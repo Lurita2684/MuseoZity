@@ -13,16 +13,17 @@ import MapKit
 
 
 class MuseosViewController: UIViewController ,  UITableViewDataSource, UITableViewDelegate {
-
-    let locationManager = CLLocationManager()
     
     var museos: [Museo] = []
     @IBOutlet weak var tableMuseos: UITableView!
     
     func creaMuseos() {
-        let horarioPrado = "Lunes a Sábado de 10:00 a 20:00 , Domingos de 10:00 a 19:00"
-        let descripcionPrado = "Una de las mayores pinacotecas de Europa. Su coleccion se debe a los grandes aristócratas aficionados al arte. Pocos se atreverían a poner en duda que es el museo más importante del mundo en pintura europea"
-        let prado = Museo(nombre: "museo del Prado", imagen: "museoPrado", horario: horarioPrado  , descripcion: descripcionPrado)
+      
+        let coordenadas = CLLocationCoordinate2D(latitude: 40.414042, longitude: -3.691665)
+        let descripcionPrado = "Una de las mayores pinacotecas de Europa. Su coleccion se debe a los grandes aristócratas aficionados al arte. Pocos se atreverían a poner en duda que es el museo más importante del mundo en pintura europea.                                                                               Lunes a Sábado de 10:00 a 20:00 , Domingos de 10:00 a 19:00"
+        let prado = Museo(nombre: "Museo Nacional del Prado", imagen: "museoPrado", descripcion: descripcionPrado, coord: coordenadas
+        )
+    
         museos.append(prado)
         
 
@@ -55,19 +56,6 @@ class MuseosViewController: UIViewController ,  UITableViewDataSource, UITableVi
         return tableViewCell!
 
     }
-    
-
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 
     }

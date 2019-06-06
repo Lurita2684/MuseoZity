@@ -1,19 +1,17 @@
 //
-//  Museo.swift
+//  Biblioteca.swift
 //  MuseoZity
 //
-//  Created by Dev2 on 31/05/2019.
+//  Created by Dev2 on 06/06/2019.
 //  Copyright © 2019 Lurita. All rights reserved.
 //
 
 import Foundation
 import CoreLocation
 
-struct Museo {
+struct Biblioteca {
     let nombre: String
     let imagen: String
     let descripcion: String
-    let coord: CLLocationCoordinate2D
-    //etc
-
+    let coord = CLLocationCoordinate2D(latitude: 40.423807, longitude:  -3.689411)
 }

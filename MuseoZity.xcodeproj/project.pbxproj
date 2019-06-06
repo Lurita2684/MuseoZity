@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90A790B22A95C0F00D96B67 /* LibreriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A790A22A95C0F00D96B67 /* LibreriasViewController.swift */; };
+		D90A790F22A95CA100D96B67 /* Biblioteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A790E22A95CA100D96B67 /* Biblioteca.swift */; };
+		D90A791122A95E8B00D96B67 /* Libreria.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A791022A95E8B00D96B67 /* Libreria.swift */; };
+		D90A791522A9633B00D96B67 /* BibliotecaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A791422A9633B00D96B67 /* BibliotecaTableViewCell.swift */; };
+		D90A791722A9638E00D96B67 /* LibreriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A791622A9638E00D96B67 /* LibreriaTableViewCell.swift */; };
 		D996E4F222A812B50027C6B1 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996E4F122A812B50027C6B1 /* PointOfInterest.swift */; };
 		D9C26F9722A1870A00D57343 /* MuseosMadridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */; };
 		D9C26F9922A19DC000D57343 /* Museo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26F9822A19DC000D57343 /* Museo.swift */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90A790A22A95C0F00D96B67 /* LibreriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreriasViewController.swift; sourceTree = "<group>"; };
+		D90A790E22A95CA100D96B67 /* Biblioteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Biblioteca.swift; path = ../Biblioteca.swift; sourceTree = "<group>"; };
+		D90A791022A95E8B00D96B67 /* Libreria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libreria.swift; sourceTree = "<group>"; };
+		D90A791422A9633B00D96B67 /* BibliotecaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibliotecaTableViewCell.swift; sourceTree = "<group>"; };
+		D90A791622A9638E00D96B67 /* LibreriaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibreriaTableViewCell.swift; sourceTree = "<group>"; };
 		D996E4F122A812B50027C6B1 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseosMadridTableViewCell.swift; sourceTree = "<group>"; };
 		D9C26F9822A19DC000D57343 /* Museo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museo.swift; sourceTree = "<group>"; };
@@ -114,9 +124,14 @@
 				F996116122A04F9300585BC9 /* AppDelegate.swift */,
 				F996116322A04F9300585BC9 /* ViewController.swift */,
 				D9F0EB3322A5A4EA006956BC /* MuseosViewController.swift */,
+				D90A790A22A95C0F00D96B67 /* LibreriasViewController.swift */,
 				D9C26F9822A19DC000D57343 /* Museo.swift */,
+				D90A790E22A95CA100D96B67 /* Biblioteca.swift */,
+				D90A791022A95E8B00D96B67 /* Libreria.swift */,
 				F996116522A04F9300585BC9 /* Main.storyboard */,
 				D9C26F9622A1870A00D57343 /* MuseosMadridTableViewCell.swift */,
+				D90A791422A9633B00D96B67 /* BibliotecaTableViewCell.swift */,
+				D90A791622A9638E00D96B67 /* LibreriaTableViewCell.swift */,
 				D996E4F122A812B50027C6B1 /* PointOfInterest.swift */,
 				F955D46622A062D0001996BA /* BottomSelectorViewController.swift */,
 				F955D46822A065E2001996BA /* ButtomType.swift */,
@@ -278,12 +293,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F0EB3422A5A4EA006956BC /* MuseosViewController.swift in Sources */,
+				D90A791522A9633B00D96B67 /* BibliotecaTableViewCell.swift in Sources */,
 				F996116422A04F9300585BC9 /* ViewController.swift in Sources */,
 				F996116A22A04F9300585BC9 /* MuseoZity.xcdatamodeld in Sources */,
 				D9C26F9722A1870A00D57343 /* MuseosMadridTableViewCell.swift in Sources */,
+				D90A790B22A95C0F00D96B67 /* LibreriasViewController.swift in Sources */,
+				D90A791722A9638E00D96B67 /* LibreriaTableViewCell.swift in Sources */,
+				D90A790F22A95CA100D96B67 /* Biblioteca.swift in Sources */,
 				D9C26F9922A19DC000D57343 /* Museo.swift in Sources */,
 				F955D46722A062D0001996BA /* BottomSelectorViewController.swift in Sources */,
 				F955D46922A065E2001996BA /* ButtomType.swift in Sources */,
+				D90A791122A95E8B00D96B67 /* Libreria.swift in Sources */,
 				D996E4F222A812B50027C6B1 /* PointOfInterest.swift in Sources */,
 				F996116222A04F9300585BC9 /* AppDelegate.swift in Sources */,
 			);
